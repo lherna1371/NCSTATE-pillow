@@ -1,0 +1,79 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+header, footer {
+    outline: 4px solid red;
+    width: 100vw;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div:nth-child(2) {
+    display: flex;
+    align-items: center;
+}
+
+aside {
+    outline: 4px solid green;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside ul {
+    padding-left: 0;
+}
+
+aside ul li {
+    margin: 1em 0;
+    list-style: none;
+}
+
+main {
+    outline: 4px solid orange;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.hero-img img {
+    width: 100%;
+}
+
+.sub-hero-img {
+    display: flex;
+    
+}
+
+.sub-hero-img img {
+    width: 50%;
+}
+
+.articles {
+    display: flex;
+}
+
+.articles div {
+    flex-grow: 1;
+    margin: 5px;
+}
+
+.articles div img {
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
